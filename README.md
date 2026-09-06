@@ -4,16 +4,6 @@
 
 This repository is the research software companion to a study of storage recovery between successive heatwave stress episodes. It contains network-constrained recovery models, deterministic experiment drivers, tests, saved numerical results, and editable plots. The central question is which storage states can supply a specified next event and how soon the system can reach those states.
 
-## Publication
-
-**A Network-Constrained Recovery Criterion for Energy Storage During Heatwaves**
-
-Status: Unpublished research software accompanying a research manuscript.
-
-Authors: Haolin Wang; Zhi Wu; Wei Gu; Shuai Yao; Xiao-Ping Zhang.
-
-Contact: [Zhi Wu](mailto:zwu@seu.edu.cn).
-
 ## Overview
 
 - **Recovery criterion:** event-feasible storage states account for both energy availability and network constraints.
@@ -93,12 +83,6 @@ The full chronological experiment includes optimization and AC replay and can be
 The input preparation script retrieves NOAA ISD-Lite observations and the MATPOWER RTS-24 case. The weather interval is September 1-10, 2022, with three stations and 240 hourly observations per station. Network access is required for input retrieval. Run `prepare_reduced_case.py` after retrieval to create the reduced case used by the constant-condition experiments. Consult [data documentation](data/README.md) for source URLs, attribution, and preparation details.
 
 The saved numerical outputs and figures are available in `results/` and `results_v2/`. The complete chronological trajectories are stored as `results_v2/all_weather_trajectories.json.gz`.
-
-## Citation
-
-Use [CITATION.cff](CITATION.cff) to cite the software. Include the Git commit or release identifier used in your analysis. Publication metadata can be added when available.
-
-> H. Wang, Z. Wu, W. Gu, S. Yao, and X.-P. Zhang, "A Network-Constrained Recovery Criterion for Energy Storage During Heatwaves," research software. https://github.com/haolinwang1313/network-aware-storage-recovery
 
 ## License
 
