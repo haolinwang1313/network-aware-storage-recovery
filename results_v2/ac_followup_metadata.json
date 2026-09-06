@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-09-05T11:33:18.335910+00:00",
+  "rationale": "Follow-up after initial AC non-convergence; no failures removed.",
+  "source_sha256": {
+    "src/ac_validation.py": "079bf756c9a5d16e748707d3ec25c578954ecb8cdb27a2f0f766afa8c51f3903",
+    "src/cases.py": "73bb3333fbcb37e02f6e1561a1bfa293a6dcd41426f0d8c307c58c8e38b574ca",
+    "src/chronology.py": "a08f35697958be9a1e93d1e994337ff61697607af501d396621309549f9d2d99",
+    "src/minimum_time.py": "566d1a53bdebcd692641e9663a5f71965ae3026881e71b9bf350f4c48aaac1ec",
+    "src/plot_results.py": "a4b53db7b0bd621485b1dc607c2a52d30a79f4e8d9e8223331cd950fec22eabd",
+    "src/recovery.py": "8f940c7a2d9d478ec356b5c0a1104b49c8c2623b3401adddaa95bcf8c7432750",
+    "src/run_experiments.py": "e13021bdd4f2f552a7afe1ecc036af364bc5c0b5ea8540aceb3cef76fa915339",
+    "src/run_validation_v2.py": "d235cf036f15caa40a764847fe9487f371672f99f83b787d0364b0b5154fa311",
+    "src/weather_cases.py": "9fa10dcad7d18c2140748c4865c9e2d115752bc41a41ea99e4facc8e5323235e"
+  },
+  "designs": 9
+}

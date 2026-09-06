@@ -1,0 +1,17 @@
+design,window_h,temperature_error_c,ens_mwh
+nominal,8.0,-1.0,1e-07
+nominal,8.0,0.0,2.0000564287793167e-07
+nominal,8.0,0.5,146.85750020000646
+nominal,8.0,1.0,293.71500020000263
+nominal,8.0,1.5,440.5725002000047
+nominal,8.0,2.0,587.4300002000042
+nominal,8.0,2.5,734.2875002000013
+nominal,8.0,3.0,881.1450002000076
+0_to_2C_envelope,9.0,-1.0,1e-07
+0_to_2C_envelope,9.0,0.0,1e-07
+0_to_2C_envelope,9.0,0.5,1e-07
+0_to_2C_envelope,9.0,1.0,1e-07
+0_to_2C_envelope,9.0,1.5,1e-07
+0_to_2C_envelope,9.0,2.0,2.000023388542104e-07
+0_to_2C_envelope,9.0,2.5,146.8575002000013
+0_to_2C_envelope,9.0,3.0,293.7150002000041

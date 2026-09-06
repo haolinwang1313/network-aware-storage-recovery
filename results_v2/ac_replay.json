@@ -1,0 +1,1861 @@
+[
+  {
+    "settings": {
+      "day": 4,
+      "line_scale": 1.0,
+      "charger_mw": 200.0,
+      "loss_margin": 0.0,
+      "line_margin": 1.0
+    },
+    "status": "no_complete_ac_witness",
+    "window_h": 7.0,
+    "prefix": {
+      "hours": 24,
+      "witness_hours": 14,
+      "all_hours_witnessed": false,
+      "rows": [
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 1,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 2,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 3,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 4,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 5,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 5.501513994203778e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.012624155446853,
+            "max_voltage_pu": 1.0499999956605381,
+            "max_line_loading": 0.999999980152417
+          },
+          "max_generator_change_from_dc_mw": 96.7499994000693,
+          "segment": "recovery",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 6.7639293597212e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0144592742970915,
+            "max_voltage_pu": 1.0499999998252934,
+            "max_line_loading": 0.9626216287275812
+          },
+          "max_generator_change_from_dc_mw": 189.7199999660538,
+          "segment": "recovery",
+          "step": 1,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 6.529537870840256e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.013981056288567,
+            "max_voltage_pu": 1.0499999957714317,
+            "max_line_loading": 0.9595355550546746
+          },
+          "max_generator_change_from_dc_mw": 211.37692106257805,
+          "segment": "recovery",
+          "step": 2,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.8571371995383997e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0117400753137642,
+            "max_voltage_pu": 1.049999983733918,
+            "max_line_loading": 0.9656584825202915
+          },
+          "max_generator_change_from_dc_mw": 265.5449953935381,
+          "segment": "recovery",
+          "step": 3,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 5.702981560937221e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0098951214871825,
+            "max_voltage_pu": 1.049999999380257,
+            "max_line_loading": 0.9925505644545755
+          },
+          "max_generator_change_from_dc_mw": 267.0299997783395,
+          "segment": "recovery",
+          "step": 4,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.0589628079601917e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0069344887621112,
+            "max_voltage_pu": 1.0499999876405812,
+            "max_line_loading": 0.9999999859686107
+          },
+          "max_generator_change_from_dc_mw": 265.6295252557562,
+          "segment": "recovery",
+          "step": 5,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 4.830206981296845e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.004304697786063,
+            "max_voltage_pu": 1.0499999994779816,
+            "max_line_loading": 0.9999999992968347
+          },
+          "max_generator_change_from_dc_mw": 263.57268436065226,
+          "segment": "recovery",
+          "step": 6,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.436116912900478e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0031439082825029,
+            "max_voltage_pu": 1.0499999894481054,
+            "max_line_loading": 0.9999999837438865
+          },
+          "max_generator_change_from_dc_mw": 263.2620557680003,
+          "segment": "recovery",
+          "step": 7,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.6914415427735167e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0030892179146575,
+            "max_voltage_pu": 1.0499999870943586,
+            "max_line_loading": 0.9999999792635278
+          },
+          "max_generator_change_from_dc_mw": 265.7327709231487,
+          "segment": "recovery",
+          "step": 8,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.508878994956866e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0052893479261145,
+            "max_voltage_pu": 1.049999997200687,
+            "max_line_loading": 0.9999999963544824
+          },
+          "max_generator_change_from_dc_mw": 264.8054896464984,
+          "segment": "recovery",
+          "step": 9,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.2529172045623902e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0091986821198027,
+            "max_voltage_pu": 1.0499999848418535,
+            "max_line_loading": 0.999999984172264
+          },
+          "max_generator_change_from_dc_mw": 269.7270338582897,
+          "segment": "recovery",
+          "step": 10,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.5969393436942267e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.011679627196861,
+            "max_voltage_pu": 1.0499999961925504,
+            "max_line_loading": 0.9667548840144866
+          },
+          "max_generator_change_from_dc_mw": 187.6286592751262,
+          "segment": "recovery",
+          "step": 11,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 3.3213395997515067e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0139166265647568,
+            "max_voltage_pu": 1.0499999965482794,
+            "max_line_loading": 0.9391565188032467
+          },
+          "max_generator_change_from_dc_mw": 97.6286594640822,
+          "segment": "recovery",
+          "step": 12,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.94082916717213e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0132869521388626,
+            "max_voltage_pu": 1.049999997709864,
+            "max_line_loading": 0.9662100234198001
+          },
+          "max_generator_change_from_dc_mw": 60.019199665928625,
+          "segment": "recovery",
+          "step": 13,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 14,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 15,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 16,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 17,
+          "linked_to_preceding_ac_witness": false
+        }
+      ],
+      "terminal_pg": null
+    },
+    "events": [
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      },
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      },
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      }
+    ],
+    "fixed_storage_schedule": true,
+    "generation_redispatch_allowed": true,
+    "no_reactive_support_from_storage": true,
+    "interpretation": "AC witness for these trajectories, not AC optimality or general guarantee."
+  },
+  {
+    "settings": {
+      "day": 4,
+      "line_scale": 1.0,
+      "charger_mw": 200.0,
+      "loss_margin": 0.02,
+      "line_margin": 0.98
+    },
+    "status": "no_complete_ac_witness",
+    "window_h": 8.0,
+    "prefix": {
+      "hours": 24,
+      "witness_hours": 16,
+      "all_hours_witnessed": false,
+      "rows": [
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 1,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 2,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 3,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 4,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.8979634175195202e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.9500000050181574,
+            "max_voltage_pu": 1.0499999937836888,
+            "max_line_loading": 0.9999999988468439
+          },
+          "max_generator_change_from_dc_mw": 7.76476394425049,
+          "segment": "prior_episode",
+          "step": 5,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.1836238521308829e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0126236775202557,
+            "max_voltage_pu": 1.0499999914334115,
+            "max_line_loading": 0.9999999608056339
+          },
+          "max_generator_change_from_dc_mw": 64.55479515340068,
+          "segment": "recovery",
+          "step": 0,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 6.763930112730709e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.014459274297085,
+            "max_voltage_pu": 1.0499999998252934,
+            "max_line_loading": 0.9626216287275826
+          },
+          "max_generator_change_from_dc_mw": 153.6153515660529,
+          "segment": "recovery",
+          "step": 1,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 6.529523620135788e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0139810562885665,
+            "max_voltage_pu": 1.0499999957714317,
+            "max_line_loading": 0.9595355550546728
+          },
+          "max_generator_change_from_dc_mw": 242.1303506625746,
+          "segment": "recovery",
+          "step": 2,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.8571384557113919e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0117400753137658,
+            "max_voltage_pu": 1.0499999837339178,
+            "max_line_loading": 0.9656584825202924
+          },
+          "max_generator_change_from_dc_mw": 265.5449953935381,
+          "segment": "recovery",
+          "step": 3,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 5.7029806752767305e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0098951214871823,
+            "max_voltage_pu": 1.049999999380257,
+            "max_line_loading": 0.992550564454575
+          },
+          "max_generator_change_from_dc_mw": 267.0299997783395,
+          "segment": "recovery",
+          "step": 4,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.0589621029413006e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0069344887621112,
+            "max_voltage_pu": 1.0499999876405812,
+            "max_line_loading": 0.9999999859686107
+          },
+          "max_generator_change_from_dc_mw": 265.6295252557562,
+          "segment": "recovery",
+          "step": 5,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 4.830207094818403e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0043046977860655,
+            "max_voltage_pu": 1.0499999994779818,
+            "max_line_loading": 0.9999999992968346
+          },
+          "max_generator_change_from_dc_mw": 263.57268436065226,
+          "segment": "recovery",
+          "step": 6,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.4361168739737446e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0031439082825022,
+            "max_voltage_pu": 1.0499999894481054,
+            "max_line_loading": 0.9999999837438872
+          },
+          "max_generator_change_from_dc_mw": 263.26205576800066,
+          "segment": "recovery",
+          "step": 7,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.691441568301163e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.003089217914657,
+            "max_voltage_pu": 1.0499999870943586,
+            "max_line_loading": 0.9999999792635276
+          },
+          "max_generator_change_from_dc_mw": 265.7327709231489,
+          "segment": "recovery",
+          "step": 8,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.5088791069485228e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.005289347926114,
+            "max_voltage_pu": 1.0499999972006873,
+            "max_line_loading": 0.9999999963544832
+          },
+          "max_generator_change_from_dc_mw": 244.1517964965921,
+          "segment": "recovery",
+          "step": 9,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 10,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 4.0880905891785585e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.992619895270342,
+            "max_voltage_pu": 1.0499999967798412,
+            "max_line_loading": 0.9999996060567027
+          },
+          "max_generator_change_from_dc_mw": 24.711069376549148,
+          "segment": "recovery",
+          "step": 11,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 6.737338129318662e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.981681335241413,
+            "max_voltage_pu": 1.049999999093639,
+            "max_line_loading": 0.968902256280658
+          },
+          "max_generator_change_from_dc_mw": 1.2239560602449728,
+          "segment": "recovery",
+          "step": 12,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.851481633039091e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.9963548966383349,
+            "max_voltage_pu": 1.049999962459703,
+            "max_line_loading": 0.9551559906111152
+          },
+          "max_generator_change_from_dc_mw": 5.481277613724558,
+          "segment": "recovery",
+          "step": 13,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 7.239432121046515e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0088317316782451,
+            "max_voltage_pu": 1.0499999870954668,
+            "max_line_loading": 0.9999999886442932
+          },
+          "max_generator_change_from_dc_mw": 11.621753003850017,
+          "segment": "recovery",
+          "step": 14,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.7701564092395756e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.965504271218979,
+            "max_voltage_pu": 1.049999982431122,
+            "max_line_loading": 0.9999999952546639
+          },
+          "max_generator_change_from_dc_mw": 9.156575285371389,
+          "segment": "recovery",
+          "step": 15,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 16,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 17,
+          "linked_to_preceding_ac_witness": false
+        }
+      ],
+      "terminal_pg": null
+    },
+    "events": [
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      },
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      },
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      }
+    ],
+    "fixed_storage_schedule": true,
+    "generation_redispatch_allowed": true,
+    "no_reactive_support_from_storage": true,
+    "interpretation": "AC witness for these trajectories, not AC optimality or general guarantee."
+  },
+  {
+    "settings": {
+      "day": 4,
+      "line_scale": 1.0,
+      "charger_mw": 200.0,
+      "loss_margin": 0.04,
+      "line_margin": 0.95
+    },
+    "status": "no_dc_ready_schedule",
+    "window_h": null,
+    "reason": "not_ready_with_full_gap",
+    "planned_ens": 201.9842065000073
+  },
+  {
+    "settings": {
+      "day": 5,
+      "line_scale": 1.0,
+      "charger_mw": 200.0,
+      "loss_margin": 0.0,
+      "line_margin": 1.0
+    },
+    "status": "no_complete_ac_witness",
+    "window_h": 9.0,
+    "prefix": {
+      "hours": 24,
+      "witness_hours": 11,
+      "all_hours_witnessed": false,
+      "rows": [
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 1,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 2,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 3,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 4,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "prior_episode",
+          "step": 5,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 5.434113776929973e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.9874155666691097,
+            "max_voltage_pu": 1.04999999216166,
+            "max_line_loading": 0.9999999973587235
+          },
+          "max_generator_change_from_dc_mw": 90.2054996241634,
+          "segment": "recovery",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.4301099521395425e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0079296058662766,
+            "max_voltage_pu": 1.0499999598026961,
+            "max_line_loading": 0.9999999698540702
+          },
+          "max_generator_change_from_dc_mw": 180.88049662025207,
+          "segment": "recovery",
+          "step": 1,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.4932024180950933e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0145836073130394,
+            "max_voltage_pu": 1.0499999987035098,
+            "max_line_loading": 0.9690441267107227
+          },
+          "max_generator_change_from_dc_mw": 262.43999972595327,
+          "segment": "recovery",
+          "step": 2,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 5.446643357250343e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0118962343799112,
+            "max_voltage_pu": 1.049999984093885,
+            "max_line_loading": 0.9628517331435256
+          },
+          "max_generator_change_from_dc_mw": 264.73499566898346,
+          "segment": "recovery",
+          "step": 3,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.2391221232552608e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.009897009693198,
+            "max_voltage_pu": 1.0499999992636446,
+            "max_line_loading": 0.9925497076470853
+          },
+          "max_generator_change_from_dc_mw": 267.0299997412055,
+          "segment": "recovery",
+          "step": 4,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 8.789449384359248e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0080160949474997,
+            "max_voltage_pu": 1.049999990039063,
+            "max_line_loading": 0.999999989340721
+          },
+          "max_generator_change_from_dc_mw": 264.87980396383006,
+          "segment": "recovery",
+          "step": 5,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 3.5875843237549763e-06,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0042790367195644,
+            "max_voltage_pu": 1.0499999994860703,
+            "max_line_loading": 0.9999999992940524
+          },
+          "max_generator_change_from_dc_mw": 263.57260025642887,
+          "segment": "recovery",
+          "step": 6,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.4970328419194885e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.003143877905385,
+            "max_voltage_pu": 1.0499999892944392,
+            "max_line_loading": 0.9999999835050984
+          },
+          "max_generator_change_from_dc_mw": 263.2620554543622,
+          "segment": "recovery",
+          "step": 7,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 2.747253569795886e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 1.0031139153670332,
+            "max_voltage_pu": 1.049999987740383,
+            "max_line_loading": 0.9999999806743405
+          },
+          "max_generator_change_from_dc_mw": 264.6096863135099,
+          "segment": "recovery",
+          "step": 8,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 1.2118227424144026e-05,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.9695148629162017,
+            "max_voltage_pu": 1.0499999893583,
+            "max_line_loading": 0.9999999926530951
+          },
+          "max_generator_change_from_dc_mw": 174.66590031265298,
+          "segment": "recovery",
+          "step": 9,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": true,
+          "attempts": 1,
+          "audit": {
+            "balance_mva": 3.496507774555654e-07,
+            "voltage_pu": 0.0,
+            "thermal_mva": 0.0,
+            "active_mw": 0.0,
+            "reactive_mvar": 0.0,
+            "min_voltage_pu": 0.9646834308428492,
+            "max_voltage_pu": 1.0499999714991919,
+            "max_line_loading": 0.9999999847903618
+          },
+          "max_generator_change_from_dc_mw": 89.71304426429151,
+          "segment": "recovery",
+          "step": 10,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 11,
+          "linked_to_preceding_ac_witness": true
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 12,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 13,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 14,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 15,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 16,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "recovery",
+          "step": 17,
+          "linked_to_preceding_ac_witness": false
+        }
+      ],
+      "terminal_pg": null
+    },
+    "events": [
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "observed",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      },
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_1C",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      },
+      {
+        "hours": 6,
+        "witness_hours": 0,
+        "all_hours_witnessed": false,
+        "rows": [
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 0,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 1,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 2,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 3,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 4,
+            "linked_to_preceding_ac_witness": false
+          },
+          {
+            "witness": false,
+            "reason": "no_ac_witness_found",
+            "attempts": [
+              "optimizer_not_converged",
+              "optimizer_not_converged"
+            ],
+            "segment": "plus_2C",
+            "step": 5,
+            "linked_to_preceding_ac_witness": false
+          }
+        ],
+        "terminal_pg": null
+      }
+    ],
+    "fixed_storage_schedule": true,
+    "generation_redispatch_allowed": true,
+    "no_reactive_support_from_storage": true,
+    "interpretation": "AC witness for these trajectories, not AC optimality or general guarantee."
+  },
+  {
+    "settings": {
+      "day": 5,
+      "line_scale": 1.0,
+      "charger_mw": 200.0,
+      "loss_margin": 0.02,
+      "line_margin": 0.98
+    },
+    "status": "no_dc_ready_schedule",
+    "window_h": null,
+    "reason": "not_ready_with_full_gap",
+    "planned_ens": 62.19391954001106
+  },
+  {
+    "settings": {
+      "day": 5,
+      "line_scale": 1.0,
+      "charger_mw": 200.0,
+      "loss_margin": 0.04,
+      "line_margin": 0.95
+    },
+    "status": "no_dc_ready_schedule",
+    "window_h": null,
+    "reason": "not_ready_with_full_gap",
+    "planned_ens": 670.0895686600074
+  }
+]

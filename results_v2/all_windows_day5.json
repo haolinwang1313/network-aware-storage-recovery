@@ -1,0 +1,154 @@
+[
+  {
+    "window_h": 0,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2573.4305760000107,
+    "baseline_total_mwh": 756.6763327368368,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 2573.430576000008
+  },
+  {
+    "window_h": 1,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2576.473247337538,
+    "baseline_total_mwh": 753.4735208025966,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 2573.430575999999
+  },
+  {
+    "window_h": 2,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2587.5671794947575,
+    "baseline_total_mwh": 741.7956974792039,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 2573.4305760000116
+  },
+  {
+    "window_h": 3,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2595.904654834486,
+    "baseline_total_mwh": 733.0194076479137,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 2573.4305760000098
+  },
+  {
+    "window_h": 4,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2562.0708163385043,
+    "baseline_total_mwh": 768.6339744857901,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 2478.0864075300196
+  },
+  {
+    "window_h": 5,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2515.8671018343675,
+    "baseline_total_mwh": 817.2694634375118,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 2188.9185467250127
+  },
+  {
+    "window_h": 6,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 2065.3382756567808,
+    "baseline_total_mwh": 1291.5103330981335,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1682.0914144500161
+  },
+  {
+    "window_h": 7,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1682.0212377141333,
+    "baseline_total_mwh": 1695.0019519851305,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1038.0398214150105
+  },
+  {
+    "window_h": 8,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 924.7485216844917,
+    "baseline_total_mwh": 2492.131126753169,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 316.0398214150095
+  },
+  {
+    "window_h": 9,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 18.693121462286662,
+    "baseline_total_mwh": 3445.8736533028605,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 10,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 4029.8987052631564,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 11,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3897.093540498612,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 12,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3943.4777621052626,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 13,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3985.894168421053,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 14,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 4006.7763268343433,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 15,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3981.300625263155,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 16,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3996.7032631578936,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 17,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3996.7032631578936,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  },
+  {
+    "window_h": 18,
+    "baseline_feasible": true,
+    "baseline_ens_mwh": 1e-07,
+    "baseline_total_mwh": 3996.7032631578936,
+    "proposed_feasible": true,
+    "proposed_ens_mwh": 1e-07
+  }
+]

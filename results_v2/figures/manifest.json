@@ -1,0 +1,32 @@
+[
+  {
+    "path": "figures/observed_temperature.svg",
+    "source": "data/public/weather_hourly.csv",
+    "sha256": "fd411cb9e60838e2fede945af775352092582f9f5fa1a9376899d1d96927f50c"
+  },
+  {
+    "path": "figures/observed_temperature.png",
+    "source": "data/public/weather_hourly.csv",
+    "sha256": "0a0d00c2e9bce572d39db53e546fe879dc8a84e1b989076e04bbe549f4da38b2"
+  },
+  {
+    "path": "figures/charging_window.svg",
+    "source": "results_v2/all_windows_day5.csv",
+    "sha256": "08833ac25be4be0ab0d6cfec20bceb96c80a3a8937b5ce87eb149ab53855b3bd"
+  },
+  {
+    "path": "figures/charging_window.png",
+    "source": "results_v2/all_windows_day5.csv",
+    "sha256": "f9b84eb5c1f770054b64c7e74df29d8488fcc9c50b6a2c2865ef9deec3f69081"
+  },
+  {
+    "path": "figures/forecast_envelope.svg",
+    "source": "results_v2/forecast_envelope.csv",
+    "sha256": "de5ce11d2ec25d3fd338cff0b8fd17afc14e73159118a0051707458734fcba9e"
+  },
+  {
+    "path": "figures/forecast_envelope.png",
+    "source": "results_v2/forecast_envelope.csv",
+    "sha256": "6ee779a8203094895716362477e576ed93dea67d75f7aa3e6ceb3b2093d221cf"
+  }
+]

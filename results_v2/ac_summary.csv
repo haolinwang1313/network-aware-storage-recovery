@@ -1,0 +1,16 @@
+day,line_scale,charger_mw,loss_margin,line_margin,status,window_h,intervals,witnessed,max_balance_mva,max_thermal_violation_mva
+4,1.0,200.0,0.0,1.0,no_complete_ac_witness,7.0,42,14,2.6914415427735167e-05,0.0
+4,1.0,200.0,0.02,0.98,no_complete_ac_witness,8.0,42,16,2.691441568301163e-05,0.0
+4,1.0,200.0,0.04,0.95,no_dc_ready_schedule,,0,0,,
+5,1.0,200.0,0.0,1.0,no_complete_ac_witness,9.0,42,11,2.747253569795886e-05,0.0
+5,1.0,200.0,0.02,0.98,no_dc_ready_schedule,,0,0,,
+5,1.0,200.0,0.04,0.95,no_dc_ready_schedule,,0,0,,
+3,1.0,200.0,0.0,1.0,no_complete_ac_witness,0.0,42,16,2.0847179800021475e-05,0.0
+3,1.0,200.0,0.03,0.98,no_complete_ac_witness,5.0,42,20,2.084717944617476e-05,0.0
+3,1.0,200.0,0.05,0.95,no_complete_ac_witness,7.0,42,19,2.0847179228096708e-05,0.0
+6,1.0,200.0,0.0,1.0,no_complete_ac_witness,7.0,42,12,2.613545547185343e-05,0.0
+6,1.0,200.0,0.03,0.98,no_complete_ac_witness,10.0,42,17,2.613545547185343e-05,0.0
+6,1.0,200.0,0.05,0.95,no_complete_ac_witness,11.0,42,16,2.6271080869894985e-05,0.0
+7,1.0,200.0,0.0,1.0,no_complete_ac_witness,6.0,42,12,2.7472535123280527e-05,0.0
+7,1.0,200.0,0.03,0.98,no_complete_ac_witness,9.0,42,17,2.747253491714376e-05,1.908048602672352e-06
+7,1.0,200.0,0.05,0.95,no_complete_ac_witness,11.0,42,17,2.677752209600778e-05,0.0

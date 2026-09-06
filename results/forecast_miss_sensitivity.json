@@ -1,0 +1,14 @@
+[
+  {
+    "actual_severity": 1.0,
+    "worst_ens_mwh": 0.0
+  },
+  {
+    "actual_severity": 1.05,
+    "worst_ens_mwh": 137.9897999999967
+  },
+  {
+    "actual_severity": 1.1,
+    "worst_ens_mwh": 275.97960000000074
+  }
+]

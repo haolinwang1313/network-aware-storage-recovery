@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-09-05T10:34:10.338837+00:00",
+  "completed_utc": "2026-09-05T10:34:35.350596+00:00",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "mode": "complete 4x5 grid plus analytical case",
+  "evidence_status": "synthetic DC proof-of-concept; not publication-ready validation",
+  "input_sha256": {
+    "src/cases.py": "73bb3333fbcb37e02f6e1561a1bfa293a6dcd41426f0d8c307c58c8e38b574ca",
+    "src/minimum_time.py": "566d1a53bdebcd692641e9663a5f71965ae3026881e71b9bf350f4c48aaac1ec",
+    "src/recovery.py": "8f940c7a2d9d478ec356b5c0a1104b49c8c2623b3401adddaa95bcf8c7432750",
+    "src/run_experiments.py": "e13021bdd4f2f552a7afe1ecc036af364bc5c0b5ea8540aceb3cef76fa915339",
+    "tests/test_recovery.py": "b34d074ad2e82388344f71a989ef6207037f4f9c0147a8f28a6a70e06b7b7972",
+    "data/rts24.json": "3f12867544c0eaf8eacb86020de31b82bf8384e917a21994b11f62354ceedabc"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "energy_mwh": [
+      6.0,
+      0.0
+    ],
+    "total_mwh": 6.0,
+    "ens_mwh": 6.0
+  },
+  {
+    "energy_mwh": [
+      0.0,
+      6.0
+    ],
+    "total_mwh": 6.0,
+    "ens_mwh": 0.0
+  },
+  {
+    "energy_mwh": [
+      8.0,
+      0.0
+    ],
+    "total_mwh": 8.0,
+    "ens_mwh": 6.0
+  }
+]

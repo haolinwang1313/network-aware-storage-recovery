@@ -1,0 +1,74 @@
+{
+  "type": "constructive AC example; not the original 3-MW DC toy",
+  "storage_discharge_rating_mw": 4.0,
+  "storage_charge_rating_mw": 2.0,
+  "efficiency": 1.0,
+  "event_duration_h": 2.0,
+  "receiver_event_load_mw": 5.0,
+  "receiver_q_mvar": 0.3,
+  "receiver_discharge_mw": 3.1,
+  "required_receiver_energy_mwh": 6.2,
+  "receiver_only_state_mwh": [
+    0.0,
+    6.2
+  ],
+  "sender_only_equal_energy_state_mwh": [
+    6.2,
+    0.0
+  ],
+  "sender_only_unserved_energy_lower_bound_mwh": 6.0,
+  "constructed_recovery_h": 3.2631578947368425,
+  "interpretation": "Constructed feasible duration, NOT the AC minimum recovery time.",
+  "event": {
+    "audit": {
+      "balance_mva": 1.4646480235856724e-13,
+      "voltage_pu": 0.0,
+      "thermal_mva": 0.0,
+      "active_mw": 0.0,
+      "reactive_mvar": 0.0,
+      "min_voltage_pu": 0.9995080086323174,
+      "max_voltage_pu": 1.0,
+      "max_line_loading": 0.9622426181453299
+    },
+    "bus_voltage_complex": [
+      [
+        1.0,
+        6.821050323911055e-20
+      ],
+      [
+        0.999506259320141,
+        -0.0018700000000000004
+      ]
+    ],
+    "source_pg_mw": 3.9003703643424723,
+    "source_qg_mvar": 0.30370364342472,
+    "line_sending_p_mw": 1.9003703643424723,
+    "line_sending_q_mvar": 0.30370364342472
+  },
+  "recovery": {
+    "audit": {
+      "balance_mva": 2.4208076367668053e-13,
+      "voltage_pu": 0.0,
+      "thermal_mva": 0.0,
+      "active_mw": 0.0,
+      "reactive_mvar": 0.0,
+      "min_voltage_pu": 0.9993020191141403,
+      "max_voltage_pu": 1.0,
+      "max_line_loading": 0.9785633793147515
+    },
+    "bus_voltage_complex": [
+      [
+        1.0,
+        8.446846698578081e-20
+      ],
+      [
+        0.9992945254055967,
+        -0.0038699999999999997
+      ]
+    ],
+    "source_pg_mw": 5.901532138059732,
+    "source_qg_mvar": 0.315321380597315,
+    "line_sending_p_mw": 3.9015321380597316,
+    "line_sending_q_mvar": 0.315321380597315
+  }
+}

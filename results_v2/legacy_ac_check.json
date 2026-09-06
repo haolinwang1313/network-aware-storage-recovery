@@ -1,0 +1,256 @@
+{
+  "prefix": {
+    "hours": 8,
+    "witness_hours": 0,
+    "all_hours_witnessed": false,
+    "rows": [
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 0,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 1,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 2,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 3,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 4,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 5,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 6,
+        "linked_to_preceding_ac_witness": false
+      },
+      {
+        "witness": false,
+        "reason": "no_ac_witness_found",
+        "attempts": [
+          "optimizer_not_converged",
+          "optimizer_not_converged"
+        ],
+        "segment": "legacy_recovery",
+        "step": 7,
+        "linked_to_preceding_ac_witness": false
+      }
+    ],
+    "terminal_pg": null
+  },
+  "events": [
+    {
+      "hours": 4,
+      "witness_hours": 0,
+      "all_hours_witnessed": false,
+      "rows": [
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "south",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "south",
+          "step": 1,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "south",
+          "step": 2,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "south",
+          "step": 3,
+          "linked_to_preceding_ac_witness": false
+        }
+      ],
+      "terminal_pg": null
+    },
+    {
+      "hours": 4,
+      "witness_hours": 0,
+      "all_hours_witnessed": false,
+      "rows": [
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "central",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "central",
+          "step": 1,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "central",
+          "step": 2,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "central",
+          "step": 3,
+          "linked_to_preceding_ac_witness": false
+        }
+      ],
+      "terminal_pg": null
+    },
+    {
+      "hours": 4,
+      "witness_hours": 0,
+      "all_hours_witnessed": false,
+      "rows": [
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "widespread",
+          "step": 0,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "widespread",
+          "step": 1,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "widespread",
+          "step": 2,
+          "linked_to_preceding_ac_witness": false
+        },
+        {
+          "witness": false,
+          "reason": "no_ac_witness_found",
+          "attempts": [
+            "optimizer_not_converged",
+            "optimizer_not_converged"
+          ],
+          "segment": "widespread",
+          "step": 3,
+          "linked_to_preceding_ac_witness": false
+        }
+      ],
+      "terminal_pg": null
+    }
+  ]
+}
