@@ -14,8 +14,8 @@ The saved AC records found no complete AC realization of the tested RTS-24 traje
 
 | Question or check | Saved output | Generator |
 |---|---|---|
-| Constant-condition parameter sweep | `results/summary.json`, `results/summary.csv` | `src/run_experiments.py` |
-| Two-bus recovery and equal-energy comparison | `results/two_bus_detail.json`, `results/equal_soc_counterexample.json` | `src/run_experiments.py` |
+| Constant-condition parameter sweep | `results/summary.csv` | `src/run_experiments.py` |
+| Two-bus equal-energy comparison | `results/equal_soc_counterexample.json` | `src/run_experiments.py` |
 | 54 chronological parameter combinations | `results_v2/weather_summary.json`, `results_v2/weather_summary.csv` | `src/run_validation_v2.py` |
 | Complete hourly trajectories | `results_v2/all_weather_trajectories.json.gz` | `src/run_validation_v2.py` |
 | All charging windows for September 5-6 | `results_v2/all_windows_day5.json`, `results_v2/all_windows_day5.csv` | `src/run_validation_v2.py` |
@@ -37,7 +37,7 @@ The following companion plots are produced by `src/plot_results.py`. Each plot h
 | `charging_window` | `results_v2/all_windows_day5.json` | Unserved energy versus charging availability before a fixed event onset |
 | `forecast_envelope` | `results_v2/forecast_envelope.json` | Nominal and specified-envelope designs under future temperature perturbations |
 
-The two-bus numerical example is available through `results/two_bus_detail.json` and `results/equal_soc_counterexample.json`. These files support direct inspection of the geometry and energy-location comparison.
+The saved two-bus energy-location comparison is available in `results/equal_soc_counterexample.json`. A new run of `src/run_experiments.py` also produces `summary.json` and `two_bus_detail.json` in its output directory; these additional files are not included among the distributed results.
 
 ## Reproduction sequence
 
