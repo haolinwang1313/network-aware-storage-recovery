@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software and identify the Git commit or release used in your work."
 type: software
-title: "A Network-Constrained Recovery Criterion for Energy Storage During Heatwaves"
+title: "Minimum Charging Time Windows for Battery Energy Storage Between Heatwave Demand Peaks"
 authors:
   - family-names: Wang
     given-names: Haolin
@@ -11,14 +11,13 @@ authors:
     given-names: Wei
   - family-names: Yao
     given-names: Shuai
-  - family-names: Zhang
-    given-names: Xiao-Ping
 repository-code: "https://github.com/haolinwang1313/network-aware-storage-recovery"
 url: "https://github.com/haolinwang1313/network-aware-storage-recovery"
 license: MIT
-abstract: "Research software for event-feasible storage recovery and minimum charging windows between successive heatwave stress episodes under network constraints."
+abstract: "Research software for minimum inter-peak charging time windows of battery energy storage under network constraints, with constant-condition linear programming and hourly generation and storage scheduling."
 keywords:
   - energy storage
-  - power system resilience
+  - linear programming
+  - power system reliability
+  - scheduling
   - heatwaves
-  - recovery scheduling
